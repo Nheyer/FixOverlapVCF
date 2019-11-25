@@ -1,11 +1,11 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include "htslib/hfile.h"
-#include "htslib/htslib/vcf.h"
-#include "htslib/htslib/hts.h"
+#include "../htslib/hfile.h"
+#include "../htslib/htslib/vcf.h"
+#include "../htslib/htslib/hts.h"
 #include <string>
-#define NULL_int32_t -2147483648 // this is also min btw but hoe hts lib stores null
+#define NULL_int32_t -2147483648 // this is also min btw but how hts lib stores null
 #define DEBUG false
 #define DEBUG_V false
 
