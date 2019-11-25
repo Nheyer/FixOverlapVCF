@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10.0)
 PROJECT(FixOverlapVCF)
-SET(CMAKE_SHARED_LINKER_FLAGS  -lz -lm -lbz2 -llzma -pthread )
+SET(CMAKE_SHARED_LINKER_FLAGS  -lz -lm -lbz2 -llzma -pthread -lcurl)
 
 set(CMAKE_CXX_STANDARD 11)
 include_directories(htslib)

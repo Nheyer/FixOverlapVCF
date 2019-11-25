@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include "../htslib/hfile.h"
+#include "../htslib/htslib/hfile.h"
 #include "../htslib/htslib/vcf.h"
 #include "../htslib/htslib/hts.h"
 #include <string>
